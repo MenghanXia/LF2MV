@@ -5,5 +5,6 @@ We propose a light field representation learning framework that converts a 4D li
 	<img src="asserts/overview.jpg" width="95%">
 </div>
 
+[![demo video](https://res.cloudinary.com/marcomontalbano/image/upload/v1660700289/video_to_markdown/images/youtube--k6wP5TWr4Ro-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/k6wP5TWr4Ro "demo video")
 
 ## *Code coming soon!*
