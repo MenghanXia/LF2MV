@@ -1,1 +1,1 @@
-python inference.py --config './main/meta_feature/metaFM_script.json' --checkpt './checkpts/model_last.pth.tar'
+python inference.py --config './main/metaFM_script.json' --checkpt './checkpts/model_last.pth.tar'
