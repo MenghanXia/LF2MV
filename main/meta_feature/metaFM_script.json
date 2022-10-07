@@ -1,0 +1,40 @@
+{
+    "name": "LF2MetaF",
+	"option": "",
+    "with_cuda": true,
+    "save_dir": "../../Saved",
+    "dataset": {
+        "frame_num": 49,
+        "train": "../../../../0DataZoo/Dataset_LFNew/train/",
+        "val": "../../../../0DataZoo/Dataset_LFNew/val/"
+    },
+    "model": {
+        "encoder": "EncodeNet",
+        "decoder": "DecodeNetFM",
+		"meta_num": 1,
+		"max_disp": 7
+        },
+    "trainer": {
+        "seed": 131,
+        "batch_size": 8,
+        "n_epochs": 1200,
+        "lr": 0.0002,
+        "weight_decay": 0,
+        "lr_sheduler": {
+        "factor": 0.5,
+        "patience": 3,
+        "threshold": 0.001,
+        "threshold_mode": "rel",
+        "cooldown": 0
+         },
+        "need_valid": false,
+        "display_iters": 100,
+        "save_epochs": 5,
+        "meta_tolerance": "no"
+    },
+    "loss_weight": {
+        "restoreL2Weight": 1.0,
+        "warpL2Weight": 0.5,
+        "restoreVGGWeight": 1e-3
+    }
+}
