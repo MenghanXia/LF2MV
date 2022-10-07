@@ -9,8 +9,8 @@ We propose a light field representation learning framework that converts a 4D li
 	<img src="asserts/application.png" width="95%">
 </div>
 
-
-**Check the results in [demo video](https://youtu.be/k6wP5TWr4Ro).**
+<br>
+**Check results in the [demo video](https://youtu.be/k6wP5TWr4Ro).**
 
 
 ## Dependencies and Installation
