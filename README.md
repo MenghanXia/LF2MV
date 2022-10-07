@@ -6,7 +6,7 @@
 We propose a light field representation learning framework that converts a 4D light field into a single meta-view. The learned meta-view representation enables light filed edits to be as simple as a 2D image operation, which is memory-efficient and supports most image processing algorithms (e.g. color transfer, style transfer, shadow removal, etc). **Check results in the [demo video](https://youtu.be/k6wP5TWr4Ro).**
 
 <div align="center">
-	<img src="asserts/application.png" width="95%">
+	<img src="asserts/overview.png" width="95%">
 </div>
 
 
