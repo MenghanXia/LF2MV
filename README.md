@@ -34,11 +34,13 @@ cd LF2MV
 
 - **Run the inference**: Run the script ```sh run_demo.sh``` and the results (including meta-view and reconstructed light field) will be saved in `./result`. Also, you can specify your own directories by runing the command below:
 ```
-python inference.py --config [configure file] --checkpt [checkpoint path] --input [data dir] --save [output dir]
+python inference.py --config [configure file] --checkpt [checkpoint path] --input [data dir] \
+--save [output dir]
 ```
 Particularly, if you want the **reconstruction from edited visual channels** (aka central view), you need to put the edited visual channels into `./data/cview` (must be named the same as its light field) at first' Then, run the command with the argument `--edit` added:
 ```
-python inference.py --config [configure file] --checkpt [checkpoint path] --input [data dir] --save [output dir] --edit
+python inference.py --config [configure file] --checkpt [checkpoint path] --input [data dir] \
+--save [output dir] --edit
 ```
 
 ## Copyright and License
