@@ -34,7 +34,7 @@ cd LF2MV
 python inference.py --config [configure file] --checkpt [checkpoint path] --input [data dir] \
 --save [output dir]
 ```
-Particularly, if you want the **reconstruction from edited visual channels** (aka central view), you need to put the edited visual channels into `./data/cview` (must be named the same as its light field) at first' Then, run the command with the argument `--edit` added:
+Particularly, if you want the **reconstruction from edited visual channels** (aka central view), you need to put the edited visual channels into `./data/cview` (must be named the same as its light field) at first. Then, run the command with the argument `--edit` added:
 ```
 python inference.py --config [configure file] --checkpt [checkpoint path] --input [data dir] \
 --save [output dir] --edit
