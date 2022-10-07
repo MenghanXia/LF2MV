@@ -12,12 +12,12 @@ We propose a light field representation learning framework that converts a 4D li
 
 ## Dependencies and Installation
 
-####create a anaconda env with required packages installed
+#### create a anaconda env with required packages installed
 ```
 conda env create -f lf2mvPT.yml
 ```
 
-####git clone this repository
+#### git clone this repository
 ```
 git clone https://github.com/MenghanXia/LF2MV
 cd LF2MV
