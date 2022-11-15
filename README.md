@@ -1,7 +1,7 @@
 # LF2MV: Convert Light Field into An Editable Meta-View
 <!-- ------------------------------------------------------------------------------ -->
 
-**This is the official PyTorch implementation of [LF2MV: Learning An Editable Meta-View Towards Light Field Representation](https://arxiv.org/abs/2103.11314)**
+**This is the official PyTorch implementation of [LF2MV: Learning An Editable Meta-View Towards Light Field Representation](https://ieeexplore.ieee.org/document/9944192), published in TVCG.**
 
 We propose a light field representation learning framework that converts a 4D light field into a single meta-view. The learned meta-view representation enables light filed edits to be as simple as a 2D image operation, which is memory-efficient and supports most image processing algorithms (e.g. color transfer, style transfer, shadow removal, etc). **Check results in the [demo video](https://youtu.be/k6wP5TWr4Ro).**
 
@@ -47,3 +47,14 @@ You are granted with the [LICENSE](./LICENSE) for both academic and commercial u
 <!-- ------------------------------------------------------------------- -->
 ## Citation
 If any part of our paper and code is helpful to your work, please generously cite our paper.
+```
+@article{XiaEXT22,
+	author   = {Menghan Xia and Jose Echevarria and Minshan Xie and Tien-Tsin Wong},
+	title    = {LF2MV: Learning An Editable Meta-View Towards Light Field Representation},
+	journal  = {IEEE Transactions on Visualization and Computer Graphics (TVCG)},
+	volume   = {99},
+	number   = {1},
+	pages    = {1--14},
+	year = {2022}
+}
+```
